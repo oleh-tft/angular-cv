@@ -6,10 +6,11 @@ import { PhoneComponent } from './phone/phone.component';
 import { WorkComponent } from './work/work.component';
 import { SkillsComponent } from './skills/skills.component';
 import { PhotoComponent } from './photo/photo.component';
+import { LinksComponent } from './links/links.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, MainComponent, NameComponent, PhoneComponent, WorkComponent, SkillsComponent, PhotoComponent],
+  imports: [RouterOutlet, MainComponent, NameComponent, PhoneComponent, WorkComponent, SkillsComponent, PhotoComponent, LinksComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
