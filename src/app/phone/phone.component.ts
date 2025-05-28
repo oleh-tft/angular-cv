@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PhoneComponent implements OnInit {
 
-  phone = 'IPhone 14 Pro Max';
+  phone = 'iPhone 14 Pro Max 🔥🔥';
 
   ngOnInit() {
 
