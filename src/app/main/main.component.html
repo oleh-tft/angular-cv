@@ -1,2 +1,3 @@
-<p><b>email:</b> {{ email }}</p>
-<p><b>Місто:</b> {{ city }}</p>
+<p><b>email:</b> {{ email | uppercase }}</p>
+<p><b>Місто:</b> {{ city | lowercase }}</p>
+<p><b>Рандомна Дата:</b> {{ date | date:'short' }}</p>

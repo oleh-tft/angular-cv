@@ -1,3 +1,4 @@
 <h3>Досвід роботи:</h3>
-<p>{{ experience1 }}</p>
-<p>{{ experience2 }}</p>
+<p [ngClass]="{textshadow: flag}">{{ experience1 }}</p>
+<p [ngClass]="{textshadow: flag}">{{ experience2 }}</p>
+<button (click)="flag = !flag">Змінити стиль</button>
