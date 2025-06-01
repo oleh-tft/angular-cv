@@ -1,7 +1,10 @@
+<nav>
+    <a routerLink="" [routerLinkActive]="['class1']" [routerLinkActiveOptions]="{exact: true}">Home</a>
+    <a routerLink="/work" [routerLinkActive]="['class1']">Work</a>
+    <a routerLink="/skills" [routerLinkActive]="['class1']">Skills</a>
+</nav>
 <app-name></app-name>
 <app-phone></app-phone>
-<app-main></app-main>
-<app-work></app-work>
-<app-skills></app-skills>
 <app-photo></app-photo>
 <app-links></app-links>
+<router-outlet></router-outlet>

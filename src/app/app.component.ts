@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
 import { MainComponent } from './main/main.component';
 import { NameComponent } from './name/name.component';
 import { PhoneComponent } from './phone/phone.component';
@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, MainComponent, NameComponent, PhoneComponent, WorkComponent, SkillsComponent, PhotoComponent, LinksComponent, CommonModule],
+  imports: [RouterOutlet, RouterLink, RouterLinkActive, MainComponent, NameComponent, PhoneComponent, WorkComponent, SkillsComponent, PhotoComponent, LinksComponent, CommonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
